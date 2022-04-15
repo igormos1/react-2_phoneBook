@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 const Filter = ({ value, onChangeFilter, contactListLength }) => {
   const filterInputId = uuidv4();
   return (
-    contactListLength >= 2 && (
+    contactListLength >= 1 && (
       <>
         <label >Find contacts by name</label>
         <input
